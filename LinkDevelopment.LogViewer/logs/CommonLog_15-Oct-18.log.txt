@@ -1,0 +1,242 @@
+
+------------------------------------------------------------------------------------------------
+Date: 10/15/2018 2:36:13 AM
+Method Name: /CommonServiceDeployment/UserManagement.svc/json/GetUserFullNameWS/003dfc28-ca14-41c9-ae3a-a22dc54e9308/1
+
+
+Connection:Keep-Alive
+Host:51.136.33.181:8080
+
+
+Request Body: 
+
+
+
+Request Response:{"CanSubmit":true,"ResponseMessage":{"InternalMessage":null,"Message":["Successfully Retrieved User Full Name"],"MessageCode":1,"MessageWithStatus":null},"ResponseObject":"Mohammed Saad","ServiceDocuments":null}
+
+Taken Total Seconds:14
+
+------------------------------------------------------------------------------------------------
+Date: 10/15/2018 2:36:32 AM
+Method Name: /CommonServiceDeployment/UserManagement.svc/json/RetrieveLoginUserDetails/003dfc28-ca14-41c9-ae3a-a22dc54e9308/1
+
+
+Host:51.136.33.181:8080
+
+
+Request Body: 
+
+
+
+Request Response:{"CanSubmit":true,"ResponseMessage":{"InternalMessage":null,"Message":["Successfully retrieved user profile"],"MessageCode":1,"MessageWithStatus":null},"ResponseObject":{"CanLogin":true,"CategoryType":2,"HasLicense":true,"IsLicenseActive":true,"IsProfileCompleted":false},"ServiceDocuments":null}
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date: 10/15/2018 2:36:33 AM
+Method Name: /CommonServiceDeployment/CommonFeatures.svc/json/RetrieveLookup
+
+
+Host:51.136.33.181:8080
+Culture-Name:en-US
+Applicant-Id:003dfc28-ca14-41c9-ae3a-a22dc54e9308
+Applicant-Type:1
+
+
+Request Body: 
+
+
+
+Request Response:{"List":[{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Clinical","NameAr":null,"Order":null,"Value":"1"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Commercial","NameAr":null,"Order":null,"Value":"3"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Resedential","NameAr":null,"Order":null,"Value":"5"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Retail","NameAr":null,"Order":null,"Value":"753240000"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Surgical","NameAr":null,"Order":null,"Value":"2"}],"ResponseMessage":{"InternalMessage":null,"Message":["optionset retrieved successfuly"],"MessageCode":1,"MessageWithStatus":null}}
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date: 10/15/2018 10:06:11 AM
+Method Name: /CommonServiceDeployment/CommonFeatures.svc/json/RetrieveLookup
+
+
+Connection:Keep-Alive
+Host:51.136.33.181:8080
+
+
+Request Body: 
+
+
+
+Request Response:{"List":[{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Clinical","NameAr":null,"Order":null,"Value":"1"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Commercial","NameAr":null,"Order":null,"Value":"3"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Resedential","NameAr":null,"Order":null,"Value":"5"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Retail","NameAr":null,"Order":null,"Value":"753240000"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Surgical","NameAr":null,"Order":null,"Value":"2"}],"ResponseMessage":{"InternalMessage":null,"Message":["optionset retrieved successfuly"],"MessageCode":1,"MessageWithStatus":null}}
+
+Taken Total Seconds:5
+
+------------------------------------------------------------------------------------------------
+Date: 10/15/2018 10:06:50 AM
+Method Name: /CommonServiceDeployment/UserManagement.svc/json/PreValidateUserLoginWS/003dfc28-ca14-41c9-ae3a-a22dc54e9308/1
+
+
+Connection:Keep-Alive
+Host:51.136.33.181:8080
+
+
+Request Body: 
+
+
+
+Request Response:{"IsValid":true,"ResponseMessage":{"InternalMessage":null,"Message":["User is clear to login; Profile Activated"],"MessageCode":1,"MessageWithStatus":null}}
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date: 10/15/2018 10:06:50 AM
+Method Name: /CommonServiceDeployment/UserManagement.svc/json/GetUserFullNameWS/003dfc28-ca14-41c9-ae3a-a22dc54e9308/1
+
+
+Host:51.136.33.181:8080
+
+
+Request Body: 
+
+
+
+Request Response:{"CanSubmit":true,"ResponseMessage":{"InternalMessage":null,"Message":["Successfully Retrieved User Full Name"],"MessageCode":1,"MessageWithStatus":null},"ResponseObject":"Mohammed Saad","ServiceDocuments":null}
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date: 10/15/2018 10:07:07 AM
+Method Name: /CommonServiceDeployment/UserManagement.svc/json/RetrieveLoginUserDetails/003dfc28-ca14-41c9-ae3a-a22dc54e9308/1
+
+
+Host:51.136.33.181:8080
+
+
+Request Body: 
+
+
+
+Request Response:{"CanSubmit":true,"ResponseMessage":{"InternalMessage":null,"Message":["Successfully retrieved user profile"],"MessageCode":1,"MessageWithStatus":null},"ResponseObject":{"CanLogin":true,"CategoryType":2,"HasLicense":true,"IsLicenseActive":true,"IsProfileCompleted":false},"ServiceDocuments":null}
+
+Taken Total Seconds:4
+
+------------------------------------------------------------------------------------------------
+Date: 10/15/2018 10:07:07 AM
+Method Name: /CommonServiceDeployment/CommonFeatures.svc/json/RetrieveLookup
+
+
+Host:51.136.33.181:8080
+Culture-Name:en-US
+Applicant-Id:003dfc28-ca14-41c9-ae3a-a22dc54e9308
+Applicant-Type:1
+
+
+Request Body: 
+
+
+
+Request Response:{"List":[{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Clinical","NameAr":null,"Order":null,"Value":"1"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Commercial","NameAr":null,"Order":null,"Value":"3"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Resedential","NameAr":null,"Order":null,"Value":"5"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Retail","NameAr":null,"Order":null,"Value":"753240000"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Surgical","NameAr":null,"Order":null,"Value":"2"}],"ResponseMessage":{"InternalMessage":null,"Message":["optionset retrieved successfuly"],"MessageCode":1,"MessageWithStatus":null}}
+
+Taken Total Seconds:4
+
+------------------------------------------------------------------------------------------------
+Date: 10/15/2018 10:07:28 AM
+Method Name: /CommonServiceDeployment/UserManagement.svc/json/GetUserFullNameWS/003dfc28-ca14-41c9-ae3a-a22dc54e9308/1
+
+
+Host:51.136.33.181:8080
+
+
+Request Body: 
+
+
+
+Request Response:{"CanSubmit":true,"ResponseMessage":{"InternalMessage":null,"Message":["Successfully Retrieved User Full Name"],"MessageCode":1,"MessageWithStatus":null},"ResponseObject":"Mohammed Saad","ServiceDocuments":null}
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date: 10/15/2018 10:07:32 AM
+Method Name: /CommonServiceDeployment/UserManagement.svc/json/RetrieveLoginUserDetails/003dfc28-ca14-41c9-ae3a-a22dc54e9308/1
+
+
+Host:51.136.33.181:8080
+
+
+Request Body: 
+
+
+
+Request Response:{"CanSubmit":true,"ResponseMessage":{"InternalMessage":null,"Message":["Successfully retrieved user profile"],"MessageCode":1,"MessageWithStatus":null},"ResponseObject":{"CanLogin":true,"CategoryType":2,"HasLicense":true,"IsLicenseActive":true,"IsProfileCompleted":false},"ServiceDocuments":null}
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date: 10/15/2018 10:07:32 AM
+Method Name: /CommonServiceDeployment/CommonFeatures.svc/json/RetrieveLookup
+
+
+Host:51.136.33.181:8080
+Culture-Name:en-US
+Applicant-Id:003dfc28-ca14-41c9-ae3a-a22dc54e9308
+Applicant-Type:1
+
+
+Request Body: 
+
+
+
+Request Response:{"List":[{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Clinical","NameAr":null,"Order":null,"Value":"1"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Commercial","NameAr":null,"Order":null,"Value":"3"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Resedential","NameAr":null,"Order":null,"Value":"5"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Retail","NameAr":null,"Order":null,"Value":"753240000"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Surgical","NameAr":null,"Order":null,"Value":"2"}],"ResponseMessage":{"InternalMessage":null,"Message":["optionset retrieved successfuly"],"MessageCode":1,"MessageWithStatus":null}}
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date: 10/15/2018 1:25:13 PM
+Method Name: /CommonServiceDeployment/UserManagement.svc/json/GetUserFullNameWS/003dfc28-ca14-41c9-ae3a-a22dc54e9308/1
+
+
+Connection:Keep-Alive
+Host:51.136.33.181:8080
+
+
+Request Body: 
+
+
+
+Request Response:{"CanSubmit":true,"ResponseMessage":{"InternalMessage":null,"Message":["Successfully Retrieved User Full Name"],"MessageCode":1,"MessageWithStatus":null},"ResponseObject":"Mohammed Saad","ServiceDocuments":null}
+
+Taken Total Seconds:15
+
+------------------------------------------------------------------------------------------------
+Date: 10/15/2018 1:25:55 PM
+Method Name: /CommonServiceDeployment/UserManagement.svc/json/RetrieveLoginUserDetails/003dfc28-ca14-41c9-ae3a-a22dc54e9308/1
+
+
+Connection:Keep-Alive
+Host:51.136.33.181:8080
+
+
+Request Body: 
+
+
+
+Request Response:{"CanSubmit":true,"ResponseMessage":{"InternalMessage":null,"Message":["Successfully retrieved user profile"],"MessageCode":1,"MessageWithStatus":null},"ResponseObject":{"CanLogin":true,"CategoryType":2,"HasLicense":true,"IsLicenseActive":true,"IsProfileCompleted":false},"ServiceDocuments":null}
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date: 10/15/2018 1:25:56 PM
+Method Name: /CommonServiceDeployment/CommonFeatures.svc/json/RetrieveLookup
+
+
+Connection:Keep-Alive
+Host:51.136.33.181:8080
+Culture-Name:en-US
+Applicant-Id:003dfc28-ca14-41c9-ae3a-a22dc54e9308
+Applicant-Type:1
+
+
+Request Body: 
+
+
+
+Request Response:{"List":[{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Clinical","NameAr":null,"Order":null,"Value":"1"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Commercial","NameAr":null,"Order":null,"Value":"3"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Resedential","NameAr":null,"Order":null,"Value":"5"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Retail","NameAr":null,"Order":null,"Value":"753240000"},{"Code":null,"Enabled":false,"FilteredUponValue":null,"LocalizedName":null,"Name":"Surgical","NameAr":null,"Order":null,"Value":"2"}],"ResponseMessage":{"InternalMessage":null,"Message":["optionset retrieved successfuly"],"MessageCode":1,"MessageWithStatus":null}}
+
+Taken Total Seconds:0
