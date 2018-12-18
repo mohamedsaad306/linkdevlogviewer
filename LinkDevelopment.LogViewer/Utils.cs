@@ -28,10 +28,11 @@ namespace LinkDevelopment.LogViewer
             if (splittedLogs.Any())
             {
                 //   Regex datePattern = new Regex(@"Date:");
-                Regex datePattern = new Regex(@"Date: (.+?)\r");
-                Regex targetURLPattern = new Regex(@"Method Name: (.+?)\r");
-                Regex requestBodyPattern = new Regex(@"Request Body: (.+?)\r");
-                Regex responseBodyPattern = new Regex(@"Request Response:(.+?)\r");
+                Regex datePattern = new Regex(@"Date:(.+?)\r");
+                Regex methodPattern = new Regex(@"Method Type:(.+?)\r");
+                Regex targetURLPattern = new Regex(@"Target URL:(.+?)\r");
+                Regex requestBodyPattern = new  Regex(@"Request Body:(.+?)\r");
+                Regex responseBodyPattern = new Regex(@"Response Body:(.+?)\r");
                 Regex totalTimeInSecPattern = new Regex(@"Taken Total Seconds:(.+?)\r");
 
                 foreach (var logItemString in splittedLogs)
@@ -42,7 +43,9 @@ namespace LinkDevelopment.LogViewer
                     {
                         result.Add(new LogItem
                         {
+                            Id=Guid.NewGuid(),
                             Date = DateTime.Parse(datePattern.Match(logItemString).Groups[1].Value),
+                            TargetMethod = methodPattern.Match(logItemString).Groups[1].Value,
                             TargetURL = targetURLPattern.Match(logItemString).Groups[1].Value,
                             RequestBody = requestBodyPattern.Match(logItemString).Groups[1].Value,
                             ResponseBody = responseBodyPattern.Match(logItemString).Groups[1].Value,

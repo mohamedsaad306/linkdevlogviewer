@@ -18,6 +18,7 @@ namespace LinkDevelopment.LogViewer.Models
 
         public int TakenTimeSeconds { get; set; }
         public StatusEnum? Status { get; set; }
+        public Guid Id { get; internal set; }
     }
 
     public enum StatusEnum
