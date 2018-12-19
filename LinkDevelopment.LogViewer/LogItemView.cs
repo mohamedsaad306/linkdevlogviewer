@@ -17,17 +17,7 @@ namespace LinkDevelopment.LogViewer
         public LogItemView()
         {
             InitializeComponent();
-            // set text boxes 
-            if (item != null) 
-            {
-                txt_Date.Text = item.Date.ToString();
-                txt_Method.Text = item.TargetMethod;
-                txt_Url.Text = item.TargetURL;
-                txt_requestBody.Text = item.RequestBody;
-                txt_ResponseBody.Text = item.ResponseBody; 
-            }
-
-
+           
         }
 
         private void LogItemView_Load(object sender, EventArgs e)
@@ -37,6 +27,7 @@ namespace LinkDevelopment.LogViewer
                 txt_Date.Text = item.Date.ToString();
                 txt_Method.Text = item.TargetMethod;
                 txt_Url.Text = item.TargetURL;
+                txt_Headers.Text = item.RequestHeaders;
                 txt_requestBody.Text = item.RequestBody;
                 txt_ResponseBody.Text = item.ResponseBody;
                 txt_Time.Text = item.TakenTimeSeconds.ToString();

@@ -195,17 +195,20 @@ namespace LinkDevelopment.LogViewer
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
-            var t = ((System.Data.DataRowView)(dataGridView1.Rows[e.RowIndex].DataBoundItem)).Row["Item"] as LogItem;
-            // MessageBox.Show(e.RowIndex.ToString());
-            //var t = filteredData[e.RowIndex].Row["Item"] as LogItem;
-            //var dt = dataGridView1.DataSource as DataTable;
-            //   dataGridView1.Rows[e.RowIndex].Cells["Item"]
-            //var t = dt[e.RowIndex]["Item"] as LogItem;
+            if (e.RowIndex>-1)
+            {
+                var t = ((System.Data.DataRowView)(dataGridView1.Rows[e.RowIndex].DataBoundItem)).Row["Item"] as LogItem;
+                 
+                LogItemView log = new LogItemView { item = t };
+                log.item = t;
+                log.Show();
 
-            LogItemView log = new LogItemView { item = t };
-            log.item = t;
-            log.Show();
+            }
 
+        }
+
+        private void lbl_logsCount_Click(object sender, EventArgs e)
+        {
 
         }
     }

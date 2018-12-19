@@ -1,0 +1,663 @@
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:52 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+
+
+Request Headers Start:
+Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/webp, image/apng, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+Upgrade-Insecure-Requests: 1
+
+Request Headers End
+
+
+Request Body:
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/html"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:52 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/css/reset-css
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: text/css, */*; q=0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/css"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:52 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/css/typography-css
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: text/css, */*; q=0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/css"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:52 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/css/screen-css
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: text/css, */*; q=0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/css"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:52 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/lib/object-assign-pollyfill-js
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/javascript"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:52 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/lib/jquery-1-8-0-min-js
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/javascript"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:52 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/lib/jquery-slideto-min-js
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent
+
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/javascript"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:53 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/lib/jquery-wiggle-min-js
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent
+
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/javascript"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:53 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/lib/jquery-ba-bbq-min-js
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent
+
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/javascript"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:53 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/lib/handlebars-4-0-5-js
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/javascript"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:53 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/lib/lodash-min-js
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent
+
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/javascript"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:53 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/lib/backbone-min-js
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/javascript"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:53 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/lib/highlight-9-1-0-pack-js
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent
+
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/javascript"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:53 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/lib/highlight-9-1-0-pack_extended-js
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent
+
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/javascript"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:53 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/lib/jsoneditor-min-js
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent
+
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/javascript"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:53 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/swagger-ui-min-js
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/javascript"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:53 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/lib/marked-js
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent
+
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/javascript"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:53 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/lib/swagger-oauth-js
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent
+
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/javascript"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:53 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/images/logo_small-png
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: image/webp, image/apng, image/*, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent
+
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["image/png"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:53 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/css/print-css
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: text/css, */*; q=0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent
+
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["text/css"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:54 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/images/favicon-32x32-png
+
+
+Request Headers Start:
+Cache-Control: no-cache
+Connection: keep-alive
+Pragma: no-cache
+Accept: image/webp, image/apng, image/*, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent
+
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["image/png"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:54 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/images/favicon-16x16-png
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: image/webp, image/apng, image/*, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent
+
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["image/png"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:54 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/docs/v1
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: application/json; charset=utf-8, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:
+
+Response Body:{"ObjectType":"Swashbuckle.Swagger.SwaggerDocument, Swashbuckle.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc","Formatter":{"UseDataContractJsonSerializer":false,"Indent":false,"MaxDepth":256,"SerializerSettings":{"ReferenceLoopHandling":0,"MissingMemberHandling":0,"ObjectCreationHandling":0,"NullValueHandling":1,"DefaultValueHandling":0,"Converters":[{"CanRead":true,"CanWrite":true}],"PreserveReferencesHandling":0,"TypeNameHandling":0,"MetadataPropertyHandling":0,"TypeNameAssemblyFormat":0,"TypeNameAssemblyFormatHandling":0,"ConstructorHandling":0,"ContractResolver":null,"EqualityComparer":null,"ReferenceResolver":null,"ReferenceResolverProvider":null,"TraceWriter":null,"Binder":null,"SerializationBinder":null,"Error":null,"Context":{"Context":null,"State":0},"DateFormatString":"yyyy'-'MM'-'dd'T'HH':'mm':'ss.FFFFFFFK","MaxDepth":null,"Formatting":0,"DateFormatHandling":0,"DateTimeZoneHandling":3,"DateParseHandling":1,"FloatFormatHandling":0,"FloatParseHandling":0,"StringEscapeHandling":0,"Culture":"(Default)","CheckAdditionalContent":false},"SupportedMediaTypes":[{"CharSet":null,"Parameters":[],"MediaType":"application/json"},{"CharSet":null,"Parameters":[],"MediaType":"text/json"}],"SupportedEncodings":[{"BodyName":"utf-8","EncodingName":"Unicode (UTF-8)","HeaderName":"utf-8","WebName":"utf-8","WindowsCodePage":1200,"IsBrowserDisplay":true,"IsBrowserSave":true,"IsMailNewsDisplay":true,"IsMailNewsSave":true,"IsSingleByte":false,"EncoderFallback":{"MaxCharCount":0},"DecoderFallback":{"MaxCharCount":0},"IsReadOnly":true,"CodePage":65001},{"BodyName":"utf-16","EncodingName":"Unicode","HeaderName":"utf-16","WebName":"utf-16","WindowsCodePage":1200,"IsBrowserDisplay":false,"IsBrowserSave":true,"IsMailNewsDisplay":false,"IsMailNewsSave":false,"IsSingleByte":false,"EncoderFallback":{"MaxCharCount":0},"DecoderFallback":{"MaxCharCount":0},"IsReadOnly":true,"CodePage":1200}],"MediaTypeMappings":[{"HeaderName":"x-requested-with","HeaderValue":"XMLHttpRequest","HeaderValueComparison":5,"IsValueSubstring":true,"MediaType":{"CharSet":null,"Parameters":[],"MediaType":"application/json"}}],"RequiredMemberSelector":null},"Value":{"swagger":"2.0","info":{"version":"v1","title":"LinkDev.GAFI.WebServices.CrmWrapper","description":null,"termsOfService":null,"contact":null,"license":null,"vendorExtensions":{}},"host":"ld-crm16-gafi.cloudapp.net:8080","basePath":"/LinkDev.GAFI.WebServices.CrmWrapper","schemes":["http"],"consumes":null,"produces":null,"paths":{"/api/Contactus":{"$ref":null,"get":null,"put":{"tags":["Contactus"],"summary":null,"description":null,"externalDocs":null,"operationId":"Contactus_Put","consumes":["application/json","text/json","application/xml","text/xml","application/x-www-form-urlencoded"],"produces":["application/json","text/json","application/xml","text/xml"],"parameters":[{"$ref":null,"name":"request","in":"body","description":null,"required":true,"schema":{"$ref":"#/definitions/ContactUsRequest","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"type":null,"format":null,"items":null,"collectionFormat":null,"default":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"enum":null,"multipleOf":null,"vendorExtensions":{}}],"responses":{"200":{"description":"OK","schema":{"$ref":"#/definitions/Response[ContactUsResponse]","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"headers":null,"examples":null,"vendorExtensions":{}},"400":{"description":"BadRequest","schema":{"$ref":"#/definitions/ErrorResponse[List[ValidationError]]","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"headers":null,"examples":null,"vendorExtensions":{}},"500":{"description":"InternalServerError","schema":{"$ref":"#/definitions/ErrorResponse[Exception]","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"headers":null,"examples":null,"vendorExtensions":{}}},"schemes":null,"deprecated":null,"security":null,"vendorExtensions":{}},"post":null,"delete":null,"options":null,"head":null,"patch":null,"parameters":null,"vendorExtensions":{}},"/api/opportunities/{id}":{"$ref":null,"get":null,"put":{"tags":["Opportunities"],"summary":null,"description":null,"externalDocs":null,"operationId":"Opportunities_Put","consumes":["application/json","text/json","application/xml","text/xml","application/x-www-form-urlencoded"],"produces":["application/json","text/json","application/xml","text/xml"],"parameters":[{"$ref":null,"name":"id","in":"path","description":null,"required":true,"schema":null,"type":"string","format":null,"items":null,"collectionFormat":null,"default":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"enum":null,"multipleOf":null,"vendorExtensions":{}},{"$ref":null,"name":"requestParams","in":"body","description":null,"required":true,"schema":{"$ref":"#/definitions/OpportunityRequest","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"type":null,"format":null,"items":null,"collectionFormat":null,"default":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"enum":null,"multipleOf":null,"vendorExtensions":{}}],"responses":{"200":{"description":"OK","schema":{"$ref":"#/definitions/Response[OpportunityPutResponse]","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"headers":null,"examples":null,"vendorExtensions":{}},"400":{"description":"BadRequest","schema":{"$ref":"#/definitions/ErrorResponse[List[ValidationError]]","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"headers":null,"examples":null,"vendorExtensions":{}},"500":{"description":"InternalServerError","schema":{"$ref":"#/definitions/ErrorResponse[Exception]","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"headers":null,"examples":null,"vendorExtensions":{}}},"schemes":null,"deprecated":null,"security":null,"vendorExtensions":{}},"post":null,"delete":null,"options":null,"head":null,"patch":null,"parameters":null,"vendorExtensions":{}}},"definitions":{"ContactUsRequest":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["name","mobileNumber","subject","description"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"category":{"$ref":null,"format":"int32","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"name":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"mobileNumber":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"email":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"title":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"titleInArabic":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"subject":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"description":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorCode":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorTitle":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorTitleInArabic":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorTitleInEnglish":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryCode":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryTitle":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryTitleInArabic":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryTitleInEnglish":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"Response[ContactUsResponse]":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["requestId","message"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"requestId":{"$ref":null,"format":"int32","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"message":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"result":{"$ref":"#/definitions/ContactUsResponse","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"detailedMessage":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"ContactUsResponse":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"object","items":null,"allOf":null,"properties":{"crmEnquiryId":{"$ref":null,"format":"uuid","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":"00000000-0000-0000-0000-000000000000","vendorExtensions":{}},"crmComplaintId":{"$ref":null,"format":"uuid","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":"00000000-0000-0000-0000-000000000000","vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"ErrorResponse[List[ValidationError]]":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["requestId","message","errorCode"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"requestId":{"$ref":null,"format":"int32","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"message":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"errorCode":{"$ref":null,"format":"int32","title":null,"description":"65537 = GenericError, 131073 = GenericInternalError, 16842753 = RequiredValidation, 33619969 = ConfigurationMissing, 33685505 = Misconfiguration, 50397185 = CrmConnectionInitialisation, 50462721 = CrmOperationGeneral |> ","default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":[65537,131073,16842753,33619969,33685505,50397185,50462721],"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"errorCodeHex":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"errorCodeText":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"detailedMessage":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"detailsObject":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"array","items":{"$ref":"#/definitions/ValidationError","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"ValidationError":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["name","type"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"name":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"type":{"$ref":null,"format":"int32","title":null,"description":"0 = Required, 1 = Length, 2 = Range, 3 = Format |> ","default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":[0,1,2,3],"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"message":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"ErrorResponse[Exception]":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["requestId","message","errorCode"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"requestId":{"$ref":null,"format":"int32","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"message":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"errorCode":{"$ref":null,"format":"int32","title":null,"description":"65537 = GenericError, 131073 = GenericInternalError, 16842753 = RequiredValidation, 33619969 = ConfigurationMissing, 33685505 = Misconfiguration, 50397185 = CrmConnectionInitialisation, 50462721 = CrmOperationGeneral |> ","default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":[65537,131073,16842753,33619969,33685505,50397185,50462721],"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"errorCodeHex":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"errorCodeText":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"detailedMessage":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"detailsObject":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"object","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"OpportunityRequest":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["name","mobileNumber","subject","description"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"name":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"mobileNumber":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"email":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"title":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"titleInArabic":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorCode":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorTitle":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorTitleInArabic":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorTitleInEnglish":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryCode":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryTitle":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryTitleInArabic":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryTitleInEnglish":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"url":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"subject":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"description":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"Response[OpportunityPutResponse]":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["requestId","message"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"requestId":{"$ref":null,"format":"int32","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"message":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"result":{"$ref":"#/definitions/OpportunityPutResponse","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"detailedMessage":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"OpportunityPutResponse":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["isCreatedOpportunity","crmOpportunityId","crmEnquiryId"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"isCreatedOpportunity":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"boolean","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"crmOpportunityId":{"$ref":null,"format":"uuid","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":"00000000-0000-0000-0000-000000000000","vendorExtensions":{}},"crmEnquiryId":{"$ref":null,"format":"uuid","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":"00000000-0000-0000-0000-000000000000","vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"parameters":null,"responses":null,"securityDefinitions":null,"security":null,"tags":null,"externalDocs":null,"vendorExtensions":{}},"Headers":[{"Key":"Content-Type","Value":["application/json; charset=utf-8"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:54 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/images/throbber-gif
+
+
+Request Headers Start:
+Connection: keep-alive
+Accept: image/webp, image/apng, image/*, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.9, ar; q=0.8
+Cookie: ReqClientId=49e9b9a1-2e98-427a-bc52-61e1d8b12231; excelDownloadToken=-2
+Host: ld-crm16-gafi.cloudapp.net:8080
+Referer: http://ld-crm16-gafi.cloudapp.net:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/css/screen-css
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+
+Request Headers End
+
+
+Request Body:
+
+Response Body:{"Headers":[{"Key":"Content-Type","Value":["image/gif"]}]}
+
+
+Taken Total Seconds:0
+
+------------------------------------------------------------------------------------------------
+Date:11/18/2018 3:23:54 PM
+Method Type:GET
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/swagger/docs/v1
+
+
+Request Headers Start:
+Connection: Keep-Alive
+Accept: application/json, */*
+Accept-Encoding: gzip, deflate
+Host: ld-crm16-gafi.cloudapp.net:8080
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_151)
+
+Request Headers End
+
+
+Request Body:
+
+Response Body:{"ObjectType":"Swashbuckle.Swagger.SwaggerDocument, Swashbuckle.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc","Formatter":{"UseDataContractJsonSerializer":false,"Indent":false,"MaxDepth":256,"SerializerSettings":{"ReferenceLoopHandling":0,"MissingMemberHandling":0,"ObjectCreationHandling":0,"NullValueHandling":1,"DefaultValueHandling":0,"Converters":[{"CanRead":true,"CanWrite":true}],"PreserveReferencesHandling":0,"TypeNameHandling":0,"MetadataPropertyHandling":0,"TypeNameAssemblyFormat":0,"TypeNameAssemblyFormatHandling":0,"ConstructorHandling":0,"ContractResolver":null,"EqualityComparer":null,"ReferenceResolver":null,"ReferenceResolverProvider":null,"TraceWriter":null,"Binder":null,"SerializationBinder":null,"Error":null,"Context":{"Context":null,"State":0},"DateFormatString":"yyyy'-'MM'-'dd'T'HH':'mm':'ss.FFFFFFFK","MaxDepth":null,"Formatting":0,"DateFormatHandling":0,"DateTimeZoneHandling":3,"DateParseHandling":1,"FloatFormatHandling":0,"FloatParseHandling":0,"StringEscapeHandling":0,"Culture":"(Default)","CheckAdditionalContent":false},"SupportedMediaTypes":[{"CharSet":null,"Parameters":[],"MediaType":"application/json"},{"CharSet":null,"Parameters":[],"MediaType":"text/json"}],"SupportedEncodings":[{"BodyName":"utf-8","EncodingName":"Unicode (UTF-8)","HeaderName":"utf-8","WebName":"utf-8","WindowsCodePage":1200,"IsBrowserDisplay":true,"IsBrowserSave":true,"IsMailNewsDisplay":true,"IsMailNewsSave":true,"IsSingleByte":false,"EncoderFallback":{"MaxCharCount":0},"DecoderFallback":{"MaxCharCount":0},"IsReadOnly":true,"CodePage":65001},{"BodyName":"utf-16","EncodingName":"Unicode","HeaderName":"utf-16","WebName":"utf-16","WindowsCodePage":1200,"IsBrowserDisplay":false,"IsBrowserSave":true,"IsMailNewsDisplay":false,"IsMailNewsSave":false,"IsSingleByte":false,"EncoderFallback":{"MaxCharCount":0},"DecoderFallback":{"MaxCharCount":0},"IsReadOnly":true,"CodePage":1200}],"MediaTypeMappings":[{"HeaderName":"x-requested-with","HeaderValue":"XMLHttpRequest","HeaderValueComparison":5,"IsValueSubstring":true,"MediaType":{"CharSet":null,"Parameters":[],"MediaType":"application/json"}}],"RequiredMemberSelector":null},"Value":{"swagger":"2.0","info":{"version":"v1","title":"LinkDev.GAFI.WebServices.CrmWrapper","description":null,"termsOfService":null,"contact":null,"license":null,"vendorExtensions":{}},"host":"ld-crm16-gafi.cloudapp.net:8080","basePath":"/LinkDev.GAFI.WebServices.CrmWrapper","schemes":["http"],"consumes":null,"produces":null,"paths":{"/api/Contactus":{"$ref":null,"get":null,"put":{"tags":["Contactus"],"summary":null,"description":null,"externalDocs":null,"operationId":"Contactus_Put","consumes":["application/json","text/json","application/xml","text/xml","application/x-www-form-urlencoded"],"produces":["application/json","text/json","application/xml","text/xml"],"parameters":[{"$ref":null,"name":"request","in":"body","description":null,"required":true,"schema":{"$ref":"#/definitions/ContactUsRequest","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"type":null,"format":null,"items":null,"collectionFormat":null,"default":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"enum":null,"multipleOf":null,"vendorExtensions":{}}],"responses":{"200":{"description":"OK","schema":{"$ref":"#/definitions/Response[ContactUsResponse]","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"headers":null,"examples":null,"vendorExtensions":{}},"400":{"description":"BadRequest","schema":{"$ref":"#/definitions/ErrorResponse[List[ValidationError]]","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"headers":null,"examples":null,"vendorExtensions":{}},"500":{"description":"InternalServerError","schema":{"$ref":"#/definitions/ErrorResponse[Exception]","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"headers":null,"examples":null,"vendorExtensions":{}}},"schemes":null,"deprecated":null,"security":null,"vendorExtensions":{}},"post":null,"delete":null,"options":null,"head":null,"patch":null,"parameters":null,"vendorExtensions":{}},"/api/opportunities/{id}":{"$ref":null,"get":null,"put":{"tags":["Opportunities"],"summary":null,"description":null,"externalDocs":null,"operationId":"Opportunities_Put","consumes":["application/json","text/json","application/xml","text/xml","application/x-www-form-urlencoded"],"produces":["application/json","text/json","application/xml","text/xml"],"parameters":[{"$ref":null,"name":"id","in":"path","description":null,"required":true,"schema":null,"type":"string","format":null,"items":null,"collectionFormat":null,"default":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"enum":null,"multipleOf":null,"vendorExtensions":{}},{"$ref":null,"name":"requestParams","in":"body","description":null,"required":true,"schema":{"$ref":"#/definitions/OpportunityRequest","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"type":null,"format":null,"items":null,"collectionFormat":null,"default":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"enum":null,"multipleOf":null,"vendorExtensions":{}}],"responses":{"200":{"description":"OK","schema":{"$ref":"#/definitions/Response[OpportunityPutResponse]","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"headers":null,"examples":null,"vendorExtensions":{}},"400":{"description":"BadRequest","schema":{"$ref":"#/definitions/ErrorResponse[List[ValidationError]]","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"headers":null,"examples":null,"vendorExtensions":{}},"500":{"description":"InternalServerError","schema":{"$ref":"#/definitions/ErrorResponse[Exception]","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"headers":null,"examples":null,"vendorExtensions":{}}},"schemes":null,"deprecated":null,"security":null,"vendorExtensions":{}},"post":null,"delete":null,"options":null,"head":null,"patch":null,"parameters":null,"vendorExtensions":{}}},"definitions":{"ContactUsRequest":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["name","mobileNumber","subject","description"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"category":{"$ref":null,"format":"int32","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"name":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"mobileNumber":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"email":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"title":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"titleInArabic":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"subject":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"description":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorCode":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorTitle":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorTitleInArabic":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorTitleInEnglish":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryCode":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryTitle":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryTitleInArabic":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryTitleInEnglish":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"Response[ContactUsResponse]":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["requestId","message"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"requestId":{"$ref":null,"format":"int32","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"message":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"result":{"$ref":"#/definitions/ContactUsResponse","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"detailedMessage":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"ContactUsResponse":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"object","items":null,"allOf":null,"properties":{"crmEnquiryId":{"$ref":null,"format":"uuid","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":"00000000-0000-0000-0000-000000000000","vendorExtensions":{}},"crmComplaintId":{"$ref":null,"format":"uuid","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":"00000000-0000-0000-0000-000000000000","vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"ErrorResponse[List[ValidationError]]":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["requestId","message","errorCode"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"requestId":{"$ref":null,"format":"int32","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"message":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"errorCode":{"$ref":null,"format":"int32","title":null,"description":"65537 = GenericError, 131073 = GenericInternalError, 16842753 = RequiredValidation, 33619969 = ConfigurationMissing, 33685505 = Misconfiguration, 50397185 = CrmConnectionInitialisation, 50462721 = CrmOperationGeneral |> ","default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":[65537,131073,16842753,33619969,33685505,50397185,50462721],"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"errorCodeHex":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"errorCodeText":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"detailedMessage":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"detailsObject":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"array","items":{"$ref":"#/definitions/ValidationError","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"ValidationError":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["name","type"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"name":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"type":{"$ref":null,"format":"int32","title":null,"description":"0 = Required, 1 = Length, 2 = Range, 3 = Format |> ","default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":[0,1,2,3],"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"message":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"ErrorResponse[Exception]":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["requestId","message","errorCode"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"requestId":{"$ref":null,"format":"int32","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"message":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"errorCode":{"$ref":null,"format":"int32","title":null,"description":"65537 = GenericError, 131073 = GenericInternalError, 16842753 = RequiredValidation, 33619969 = ConfigurationMissing, 33685505 = Misconfiguration, 50397185 = CrmConnectionInitialisation, 50462721 = CrmOperationGeneral |> ","default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":[65537,131073,16842753,33619969,33685505,50397185,50462721],"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"errorCodeHex":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"errorCodeText":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"detailedMessage":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"detailsObject":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"object","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"OpportunityRequest":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["name","mobileNumber","subject","description"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"name":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"mobileNumber":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"email":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"title":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"titleInArabic":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorCode":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorTitle":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorTitleInArabic":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"sectorTitleInEnglish":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryCode":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryTitle":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryTitleInArabic":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"countryTitleInEnglish":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"url":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"subject":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"description":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"Response[OpportunityPutResponse]":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["requestId","message"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"requestId":{"$ref":null,"format":"int32","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"integer","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"message":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"result":{"$ref":"#/definitions/OpportunityPutResponse","format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":null,"items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"detailedMessage":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"OpportunityPutResponse":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":["isCreatedOpportunity","crmOpportunityId","crmEnquiryId"],"enum":null,"type":"object","items":null,"allOf":null,"properties":{"isCreatedOpportunity":{"$ref":null,"format":null,"title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"boolean","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}},"crmOpportunityId":{"$ref":null,"format":"uuid","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":"00000000-0000-0000-0000-000000000000","vendorExtensions":{}},"crmEnquiryId":{"$ref":null,"format":"uuid","title":null,"description":null,"default":null,"multipleOf":null,"maximum":null,"exclusiveMaximum":null,"minimum":null,"exclusiveMinimum":null,"maxLength":null,"minLength":null,"pattern":null,"maxItems":null,"minItems":null,"uniqueItems":null,"maxProperties":null,"minProperties":null,"required":null,"enum":null,"type":"string","items":null,"allOf":null,"properties":null,"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":"00000000-0000-0000-0000-000000000000","vendorExtensions":{}}},"additionalProperties":null,"discriminator":null,"readOnly":null,"xml":null,"externalDocs":null,"example":null,"vendorExtensions":{}}},"parameters":null,"responses":null,"securityDefinitions":null,"security":null,"tags":null,"externalDocs":null,"vendorExtensions":{}},"Headers":[{"Key":"Content-Type","Value":["application/json; charset=utf-8"]}]}
+
+
+Taken Total Seconds:0

@@ -90,6 +90,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="logs\GafiLog_03-Dec-18.log.txt" />
+    <Content Include="logs\GafiLog_12-Dec-18.log.txt" />
+    <Content Include="logs\GafiLog_17-Dec-18.log.txt" />
+    <Content Include="logs\GafiLog_18-Dec-18.log.txt" />
+    <Content Include="logs\GafiLog_18-Nov-18.log.txt" />
+    <Content Include="logs\GafiLog_26-Nov-18.log.txt" />
+    <Content Include="logs\New folder\GafiLog_18-Dec-18.log.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

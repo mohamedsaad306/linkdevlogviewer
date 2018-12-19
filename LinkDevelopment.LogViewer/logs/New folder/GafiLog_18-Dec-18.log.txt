@@ -1,0 +1,46 @@
+
+------------------------------------------------------------------------------------------------
+Date:12/18/2018 11:40:41 AM
+Method Type:PUT
+Target URL:/LinkDev.GAFI.WebServices.CrmWrapper/api/opportunities/5444
+
+
+Request Headers Start:
+Cache-Control: no-cache
+Connection: Keep-Alive
+Accept: application/json
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: ReqClientId=3aa5aa2e-d382-44b6-88ee-796f5cbcc377
+Host: localhost:8080
+Referer: http://localhost:8080/LinkDev.GAFI.WebServices.CrmWrapper/swagger/ui/index
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+DNT: 1
+
+Request Headers End
+
+
+Request Body:{
+  "name": "trrr",
+  "mobileNumber": "54544",
+  "email": "rr@rr.com",
+  "title": "test",
+  "titleInArabic": "fff",
+  "sectorCode": "55599",
+  "sectorTitle": "test isa",
+  "sectorTitleInArabic": "test isa",
+  "sectorTitleInEnglish": "test isa",
+  "countryCode": "92222",
+  "countryTitle": "test isa",
+  "countryTitleInArabic": "test isa",
+  "countryTitleInEnglish": "test isa",
+  "url": "sfsdf",
+  "subject": "test isa",
+  "description": "fsf"
+}
+
+
+Response Body:{"ObjectType":"System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","Formatter":{"UseDataContractJsonSerializer":false,"Indent":false,"MaxDepth":256,"SerializerSettings":{"ReferenceLoopHandling":0,"MissingMemberHandling":0,"ObjectCreationHandling":0,"NullValueHandling":0,"DefaultValueHandling":0,"Converters":[],"PreserveReferencesHandling":0,"TypeNameHandling":0,"MetadataPropertyHandling":0,"TypeNameAssemblyFormat":0,"TypeNameAssemblyFormatHandling":0,"ConstructorHandling":0,"ContractResolver":{"DynamicCodeGeneration":true,"DefaultMembersSearchFlags":20,"SerializeCompilerGeneratedMembers":false,"IgnoreSerializableInterface":false,"IgnoreSerializableAttribute":true,"IgnoreIsSpecifiedMembers":false,"IgnoreShouldSerializeMembers":false,"NamingStrategy":{"ProcessDictionaryKeys":true,"ProcessExtensionDataNames":false,"OverrideSpecifiedNames":true}},"EqualityComparer":null,"ReferenceResolver":null,"ReferenceResolverProvider":null,"TraceWriter":null,"Binder":null,"SerializationBinder":null,"Error":null,"Context":{"Context":null,"State":0},"DateFormatString":"yyyy'-'MM'-'dd'T'HH':'mm':'ss.FFFFFFFK","MaxDepth":null,"Formatting":0,"DateFormatHandling":0,"DateTimeZoneHandling":3,"DateParseHandling":1,"FloatFormatHandling":0,"FloatParseHandling":0,"StringEscapeHandling":0,"Culture":"(Default)","CheckAdditionalContent":false},"SupportedMediaTypes":[{"CharSet":null,"Parameters":[],"MediaType":"application/json"},{"CharSet":null,"Parameters":[],"MediaType":"text/json"}],"SupportedEncodings":[{"BodyName":"utf-8","EncodingName":"Unicode (UTF-8)","HeaderName":"utf-8","WebName":"utf-8","WindowsCodePage":1200,"IsBrowserDisplay":true,"IsBrowserSave":true,"IsMailNewsDisplay":true,"IsMailNewsSave":true,"IsSingleByte":false,"EncoderFallback":{"MaxCharCount":0},"DecoderFallback":{"MaxCharCount":0},"IsReadOnly":true,"CodePage":65001},{"BodyName":"utf-16","EncodingName":"Unicode","HeaderName":"utf-16","WebName":"utf-16","WindowsCodePage":1200,"IsBrowserDisplay":false,"IsBrowserSave":true,"IsMailNewsDisplay":false,"IsMailNewsSave":false,"IsSingleByte":false,"EncoderFallback":{"MaxCharCount":0},"DecoderFallback":{"MaxCharCount":0},"IsReadOnly":true,"CodePage":1200}],"MediaTypeMappings":[{"HeaderName":"x-requested-with","HeaderValue":"XMLHttpRequest","HeaderValueComparison":5,"IsValueSubstring":true,"MediaType":{"CharSet":null,"Parameters":[],"MediaType":"application/json"}}],"RequiredMemberSelector":{}},"Value":{"RequestId":596671063,"Message":"Opportunity enquiry successfully created.","Result":{"IsCreatedOpportunity":true,"CrmOpportunityId":"6ef8b911-a902-e911-817c-000d3a20f0aa","CrmEnquiryId":"a0192018-a902-e911-817c-000d3a20f0aa"},"DetailedMessage":null},"Headers":[{"Key":"Content-Type","Value":["application/json; charset=utf-8"]}]}
+
+
+Taken Total Seconds:52

@@ -47,7 +47,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 18);
+            this.label1.Location = new System.Drawing.Point(115, 10);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(30, 13);
             this.label1.TabIndex = 0;
@@ -56,7 +56,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(294, 18);
+            this.label2.Location = new System.Drawing.Point(316, 10);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 1;
@@ -65,7 +65,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 77);
+            this.label3.Location = new System.Drawing.Point(9, 60);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 13);
             this.label3.TabIndex = 2;
@@ -74,7 +74,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 106);
+            this.label4.Location = new System.Drawing.Point(9, 108);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(47, 13);
             this.label4.TabIndex = 3;
@@ -83,7 +83,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 213);
+            this.label5.Location = new System.Drawing.Point(9, 239);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(74, 13);
             this.label5.TabIndex = 4;
@@ -92,7 +92,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(7, 342);
+            this.label6.Location = new System.Drawing.Point(9, 391);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(79, 13);
             this.label6.TabIndex = 5;
@@ -101,7 +101,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 46);
+            this.label7.Location = new System.Drawing.Point(9, 10);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(43, 13);
             this.label7.TabIndex = 6;
@@ -109,54 +109,61 @@
             // 
             // txt_Date
             // 
-            this.txt_Date.Location = new System.Drawing.Point(93, 15);
+            this.txt_Date.Location = new System.Drawing.Point(118, 26);
             this.txt_Date.Name = "txt_Date";
             this.txt_Date.Size = new System.Drawing.Size(195, 20);
             this.txt_Date.TabIndex = 7;
             // 
             // txt_Time
             // 
-            this.txt_Time.Location = new System.Drawing.Point(375, 11);
+            this.txt_Time.Location = new System.Drawing.Point(319, 26);
             this.txt_Time.Name = "txt_Time";
             this.txt_Time.Size = new System.Drawing.Size(100, 20);
             this.txt_Time.TabIndex = 8;
             // 
             // txt_Method
             // 
-            this.txt_Method.Location = new System.Drawing.Point(93, 46);
+            this.txt_Method.Location = new System.Drawing.Point(12, 26);
             this.txt_Method.Name = "txt_Method";
             this.txt_Method.Size = new System.Drawing.Size(100, 20);
             this.txt_Method.TabIndex = 9;
             // 
             // txt_Url
             // 
-            this.txt_Url.Location = new System.Drawing.Point(93, 77);
+            this.txt_Url.Location = new System.Drawing.Point(12, 76);
             this.txt_Url.Name = "txt_Url";
-            this.txt_Url.Size = new System.Drawing.Size(533, 20);
+            this.txt_Url.Size = new System.Drawing.Size(407, 20);
             this.txt_Url.TabIndex = 10;
             // 
             // txt_Headers
             // 
-            this.txt_Headers.Location = new System.Drawing.Point(93, 106);
+            this.txt_Headers.Location = new System.Drawing.Point(12, 124);
             this.txt_Headers.Multiline = true;
             this.txt_Headers.Name = "txt_Headers";
-            this.txt_Headers.Size = new System.Drawing.Size(259, 73);
+            this.txt_Headers.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txt_Headers.Size = new System.Drawing.Size(627, 101);
             this.txt_Headers.TabIndex = 11;
             // 
             // txt_requestBody
             // 
-            this.txt_requestBody.Location = new System.Drawing.Point(93, 213);
+            this.txt_requestBody.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_requestBody.Location = new System.Drawing.Point(12, 255);
             this.txt_requestBody.Multiline = true;
             this.txt_requestBody.Name = "txt_requestBody";
-            this.txt_requestBody.Size = new System.Drawing.Size(533, 123);
+            this.txt_requestBody.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txt_requestBody.Size = new System.Drawing.Size(627, 123);
             this.txt_requestBody.TabIndex = 12;
             // 
             // txt_ResponseBody
             // 
-            this.txt_ResponseBody.Location = new System.Drawing.Point(88, 342);
+            this.txt_ResponseBody.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_ResponseBody.Location = new System.Drawing.Point(12, 407);
             this.txt_ResponseBody.Multiline = true;
             this.txt_ResponseBody.Name = "txt_ResponseBody";
-            this.txt_ResponseBody.Size = new System.Drawing.Size(533, 177);
+            this.txt_ResponseBody.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txt_ResponseBody.Size = new System.Drawing.Size(627, 177);
             this.txt_ResponseBody.TabIndex = 13;
             this.txt_ResponseBody.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
@@ -164,7 +171,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 525);
+            this.ClientSize = new System.Drawing.Size(651, 605);
             this.Controls.Add(this.txt_ResponseBody);
             this.Controls.Add(this.txt_requestBody);
             this.Controls.Add(this.txt_Headers);

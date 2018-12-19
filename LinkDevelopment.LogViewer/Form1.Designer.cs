@@ -70,7 +70,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(873, 134);
+            this.textBox1.Location = new System.Drawing.Point(873, 95);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(200, 20);
             this.textBox1.TabIndex = 2;
@@ -78,7 +78,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(873, 160);
+            this.dateTimePicker1.Location = new System.Drawing.Point(873, 121);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(173, 20);
             this.dateTimePicker1.TabIndex = 3;
@@ -86,7 +86,7 @@
             // 
             // clearFilter
             // 
-            this.clearFilter.Location = new System.Drawing.Point(792, 104);
+            this.clearFilter.Location = new System.Drawing.Point(792, 65);
             this.clearFilter.Name = "clearFilter";
             this.clearFilter.Size = new System.Drawing.Size(281, 23);
             this.clearFilter.TabIndex = 4;
@@ -97,7 +97,7 @@
             // com_filterMethods
             // 
             this.com_filterMethods.FormattingEnabled = true;
-            this.com_filterMethods.Location = new System.Drawing.Point(873, 187);
+            this.com_filterMethods.Location = new System.Drawing.Point(873, 148);
             this.com_filterMethods.Name = "com_filterMethods";
             this.com_filterMethods.Size = new System.Drawing.Size(200, 21);
             this.com_filterMethods.TabIndex = 5;
@@ -117,14 +117,15 @@
             this.lbl_logsCount.AutoSize = true;
             this.lbl_logsCount.Location = new System.Drawing.Point(837, 49);
             this.lbl_logsCount.Name = "lbl_logsCount";
-            this.lbl_logsCount.Size = new System.Drawing.Size(35, 13);
+            this.lbl_logsCount.Size = new System.Drawing.Size(13, 13);
             this.lbl_logsCount.TabIndex = 7;
-            this.lbl_logsCount.Text = "label2";
+            this.lbl_logsCount.Text = "0";
+            this.lbl_logsCount.Click += new System.EventHandler(this.lbl_logsCount_Click);
             // 
             // ck_FilterByDate
             // 
             this.ck_FilterByDate.AutoSize = true;
-            this.ck_FilterByDate.Location = new System.Drawing.Point(1053, 161);
+            this.ck_FilterByDate.Location = new System.Drawing.Point(1053, 122);
             this.ck_FilterByDate.Name = "ck_FilterByDate";
             this.ck_FilterByDate.Size = new System.Drawing.Size(15, 14);
             this.ck_FilterByDate.TabIndex = 8;

@@ -5,6 +5,7 @@ namespace LinkDevelopment.LogViewer.Models
 {
     public class LogItem
     {
+        public Guid Id { get; internal set; }
         public DateTime Date { get; set; }
 
         public string TargetURL { get; set; }
@@ -13,12 +14,12 @@ namespace LinkDevelopment.LogViewer.Models
         public string RequestBody { get; set; }
         public string  ResponseBody { get; set; }
 
-        public Dictionary<string,string> RequestHeaders { get; set; }
+        public string RequestHeaders { get; set; }
         public Dictionary<string,string> ResponseHeaders { get; set; }
 
         public int TakenTimeSeconds { get; set; }
         public StatusEnum? Status { get; set; }
-        public Guid Id { get; internal set; }
+       
     }
 
     public enum StatusEnum
