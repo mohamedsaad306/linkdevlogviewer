@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Text.RegularExpressions;
 
 namespace LinkDevelopment.LogViewer
@@ -61,6 +62,64 @@ namespace LinkDevelopment.LogViewer
                 }
             }
             return result;
+        }
+
+        public  static string EscapeSpecialCharacters(string value)
+        {
+            StringBuilder sBuilder = new StringBuilder(value);
+
+            string pattern = @"([-\]\[<>\?\*\\\""/\|\~\(\)\#/=><+\%&\^\'])";
+
+            Regex expression = new Regex(pattern);
+
+            if (expression.IsMatch(value))
+            {
+                sBuilder.Replace(@"\", @"\\");
+                sBuilder.Replace("]", @"\]");
+                sBuilder.Insert(0, "[");
+                sBuilder.Append("]");
+            }
+            return sBuilder.ToString();
+        }
+        //public static  string EscapeLikeValue(string value)
+        //{
+        //    StringBuilder sb = new StringBuilder(value.Length);
+        //    for (int i = 0; i < value.Length; i++)
+        //    {
+        //        char c = value[i];
+        //        switch (c)
+        //        {
+        //            case ']':
+        //            case '[':
+        //            case '%':
+        //            case '*':
+        //            sb.Append("[").Append(c).Append("]");
+        //            break;
+        //            case '\'':
+        //            sb.Append("''");
+        //            break;
+        //            default:
+        //            sb.Append(c);
+        //            break;
+        //        }
+        //    }
+        //    return sb.ToString();
+        //}
+
+        public static string EscapeLikeValue(string valueWithoutWildcards)
+        {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < valueWithoutWildcards.Length; i++)
+            {
+                char c = valueWithoutWildcards[i];
+                if (c == '*' || c == '%' || c == '[' || c == ']')
+                    sb.Append("[").Append(c).Append("]");
+                else if (c == '\'')
+                    sb.Append("''");
+                else
+                    sb.Append(c);
+            }
+            return sb.ToString();
         }
     }
 }

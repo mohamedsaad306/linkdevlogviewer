@@ -7,6 +7,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -59,7 +60,6 @@ namespace LinkDevelopment.LogViewer
         {
             var r = logItems.GroupBy(s => s.TargetMethod).ToList();
             r.ForEach(s => com_filterMethods.Items.Add(s.Key));
-        
             //throw new NotImplementedException();
         }
 
@@ -90,6 +90,24 @@ namespace LinkDevelopment.LogViewer
                             ColumnName = "Time",
                             ReadOnly = true
                         },
+                        new DataColumn()
+                        {
+                            ColumnName = "Headers",
+                            ReadOnly = false,
+                            ColumnMapping= MappingType.Hidden
+                        },
+                        new DataColumn()
+                        {
+                            ColumnName = "RequestBody",
+                            ReadOnly = false,
+                            ColumnMapping= MappingType.Hidden
+                        },
+                        new DataColumn()
+                        {
+                            ColumnName = "ResponseBody",
+                            ReadOnly = false,
+                            ColumnMapping= MappingType.Hidden
+                        },
                         new DataColumn ()
                         {
                             ColumnName = "Item",
@@ -106,6 +124,11 @@ namespace LinkDevelopment.LogViewer
                 r["Date"] = item.Date;
                 r["Method"] = item.TargetMethod;
                 r["Time"] = item.TakenTimeSeconds;
+                //hidden 
+                r["Headers"] = item.RequestHeaders;
+                r["RequestBody"] = item.RequestBody;
+                r["ResponseBody"] = item.ResponseBody;
+
                 r["Item"] = item;
                 LogsDT.Rows.Add(r);
             }
@@ -127,35 +150,88 @@ namespace LinkDevelopment.LogViewer
 
                 if (clear)
                 {
-                    filter = "";
-                    textBox1.Text = "";
-                    ck_FilterByDate.Checked = false;
+                    filter = string.Empty;
+                    textBox1.Text = string.Empty; 
+                    ck_applyDateFilter.Checked = false;
+                    com_filterMethods.SelectedIndex = -1;
+                    txt_headerFilter.Text = string.Empty;
+                    txt_requestBodyFilter.Text = string.Empty;
+                    txt_responseBodyFilter.Text = string.Empty;
                     //dateTimePicker1.Value = DateTime.MinValue;
 
                 }
                 else
                 {
-                    if (!string.IsNullOrEmpty(textBox1.Text))
-                    {
-                        filter = $"Url LIKE '*{textBox1.Text}*'";
-                    }
-                    if (ck_FilterByDate.Checked && !string.IsNullOrEmpty(dateTimePicker1.Value.ToShortDateString()))
-                    {
-                        filter += (string.IsNullOrEmpty(filter)) ? $"Date LIKE '*{dateTimePicker1.Value.ToShortDateString()}*'" : $" AND Date LIKE '*{dateTimePicker1.Value.ToShortDateString()}*'";
-                    }
-                    if (com_filterMethods.SelectedItem != null &&!string.IsNullOrEmpty(com_filterMethods.SelectedItem.ToString()))
-                    {
-                        filter += (string.IsNullOrEmpty(filter)) ? $"Method LIKE '*{com_filterMethods.SelectedItem.ToString()}*'" : $" AND Method LIKE '*{com_filterMethods.SelectedItem.ToString()}*'";
-                    }
+                    filter = buildFilter();
 
                 }
-                filteredData.RowFilter = filter;
-                dataGridView1.DataSource = filteredData;
-                dataGridView1.Refresh();
-                lbl_logsCount.Text = dataGridView1.Rows.Count.ToString();
+                try
+                {
+                    filteredData.RowFilter = filter;
+                    dataGridView1.DataSource = filteredData;
+                    dataGridView1.Refresh();
+                    txt_filter.Text = filter;
+                    lbl_logsCount.Text = dataGridView1.Rows.Count.ToString();
+                }
+                catch (EvaluateException e)
+                {
+                    filter = Utils.EscapeLikeValue(filter);
+                    filteredData.RowFilter = filter;
+                    dataGridView1.DataSource = filteredData;
+                    dataGridView1.Refresh();
+                    txt_filter.Text = filter;
+                    lbl_logsCount.Text = dataGridView1.Rows.Count.ToString();
+                }
+            }
+        }
+
+        private string buildFilter()
+        {
+            string filter = string.Empty;
+            // URL 
+            if (!string.IsNullOrEmpty(textBox1.Text))
+            {
+                filter = $"Url LIKE '*{textBox1.Text}*'";
+            }
+            // Date 
+            if (ck_applyDateFilter.Checked && !string.IsNullOrEmpty(dateTimePicker1.Value.ToShortDateString()))
+            {
+                if (!string.IsNullOrEmpty(filter))
+                    filter += "AND ";
+                filter += $"Date LIKE '*{dateTimePicker1.Value.ToShortDateString()}*'";
+            }
+            // Method 
+            if (com_filterMethods.SelectedItem != null && com_filterMethods.SelectedItem.ToString() != "All")
+            {
+                if (!string.IsNullOrEmpty(filter))
+                    filter += "AND ";
+                filter += $"Method LIKE '*{com_filterMethods.SelectedItem.ToString()}*'";
+            }
+            // response  Body 
+            if (!string.IsNullOrEmpty(txt_headerFilter.Text))
+            {
+                if (!string.IsNullOrEmpty(filter))
+                    filter += "AND ";
+                filter += $"Headers LIKE '*{txt_headerFilter.Text}*'";
+            }
+            // request Body 
+            if (!string.IsNullOrEmpty(txt_requestBodyFilter.Text))
+            {
+                if (!string.IsNullOrEmpty(filter))
+                    filter += "AND ";
+                filter += $"RequestBody LIKE '*{txt_requestBodyFilter.Text}*'";
+            }
+            // response  Body 
+            if (!string.IsNullOrEmpty(txt_responseBodyFilter.Text))
+            {             
+                if (!string.IsNullOrEmpty(filter))
+                    filter += "AND ";
+                filter += $"ResponseBody LIKE '*{Utils.EscapeLikeValue(txt_responseBodyFilter.Text)}*'";
             }
 
+            return filter;
         }
+
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             //var toViewDatatable = LogsDT.AsDataView();
@@ -194,22 +270,38 @@ namespace LinkDevelopment.LogViewer
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
-            if (e.RowIndex>-1)
+            if (e.RowIndex > -1)
             {
                 var t = ((System.Data.DataRowView)(dataGridView1.Rows[e.RowIndex].DataBoundItem)).Row["Item"] as LogItem;
-                 
                 LogItemView log = new LogItemView { item = t };
                 log.item = t;
                 log.Show();
-
             }
-
         }
 
         private void lbl_logsCount_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_responseBodyFilter_TextChanged(object sender, EventArgs e)
+        {
+            FilterGrid();
+        }
+
+        private void txt_headerFilter_TextChanged(object sender, EventArgs e)
+        {
+            FilterGrid();
+        }
+
+        private void txt_requestBodyFilter_TextChanged(object sender, EventArgs e)
+        {
+            FilterGrid();
         }
     }
 }
