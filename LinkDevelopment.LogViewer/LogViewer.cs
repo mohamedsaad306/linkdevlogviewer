@@ -13,57 +13,31 @@ using System.Windows.Forms;
 
 namespace LinkDevelopment.LogViewer
 {
-    public partial class Form1 : Form
+    public partial class LogViewer : Form
     {
         public DataTable LogsDT { get; set; }
         public List<LogItem> LogItems { get; set; }
         public DataView filteredData { get; set; }
 
-        public Form1()
+        public List<StatusPatternModel> StatusPatterns { get; set; }
+        public LogViewer()
         {
             InitializeComponent();
             //
             LogItems = new List<LogItem>();
+            StatusPatterns = new List<StatusPatternModel>();
         }
 
-        private void loadLogsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            using (var folderBrowser = new FolderBrowserDialog())
-            {
-                DialogResult result = folderBrowser.ShowDialog();
-
-                if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(folderBrowser.SelectedPath))
-                {
-                    var txtFiles = Directory.EnumerateFiles(folderBrowser.SelectedPath, "*.log.txt");
-
-                    foreach (string currentFile in txtFiles)
-                    {
-                        var fileLines = File.ReadAllLines(currentFile);
-                        LogItems.AddRange(Utils.ParseFile(currentFile));
-                    }
-                    if (LogItems.Any())
-                    {
-                        FillGrid(LogItems);
-                        FillMethodsFilter(LogItems);
-                    }
-                    else
-                    {
-                        MessageBox.Show("No Logs Found!");
-                    }
-                }
-            }
 
 
-        }
-
-        private void FillMethodsFilter(List<LogItem> logItems)
+        private void FillMethodsComboBoxFilter(List<LogItem> logItems)
         {
             var r = logItems.GroupBy(s => s.TargetMethod).ToList();
             r.ForEach(s => com_filterMethods.Items.Add(s.Key));
             //throw new NotImplementedException();
         }
 
-        private void FillGrid(List<LogItem> _LogItems)
+        private void FillLogsGrid(List<LogItem> _LogItems)
         {
             LogsDT = new DataTable();
             LogsDT.Columns.AddRange(new DataColumn[]{
@@ -83,7 +57,7 @@ namespace LinkDevelopment.LogViewer
                         new DataColumn()
                         {
                             ColumnName = "Status",
-                            ReadOnly = true
+                            ReadOnly = false
                         },
                         new DataColumn()
                         {
@@ -112,7 +86,8 @@ namespace LinkDevelopment.LogViewer
                         {
                             ColumnName = "Item",
                             DataType = typeof(LogItem),
-                            ColumnMapping= MappingType.Hidden
+                            ColumnMapping= MappingType.Hidden,
+                              ReadOnly = false,
                         }
                     });
 
@@ -139,7 +114,49 @@ namespace LinkDevelopment.LogViewer
             lbl_logsCount.Text = dataGridView1.Rows.Count.ToString();
         }
 
+        public void addPatternToStatusList(StatusPatternModel pattern)
+        {
+            if (!StatusPatterns.Where(p => p.PatternString == pattern.PatternString).Any())
+            {
+                StatusPatterns.Add(pattern);
+                lst_statusPatterns.Items.Add(pattern.PatternString);
+            }
+            else
+            {
+                MessageBox.Show("This Pattern Already Exist.");
+            }
+        }
+
         #region Filters
+        private void loadLogsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (var folderBrowser = new FolderBrowserDialog())
+            {
+                DialogResult result = folderBrowser.ShowDialog();
+
+                if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(folderBrowser.SelectedPath))
+                {
+                    var txtFiles = Directory.EnumerateFiles(folderBrowser.SelectedPath, "*.log.txt");
+
+                    foreach (string currentFile in txtFiles)
+                    {
+                        var fileLines = File.ReadAllLines(currentFile);
+                        LogItems.AddRange(Utils.ParseFile(currentFile));
+                    }
+                    if (LogItems.Any())
+                    {
+                        FillLogsGrid(LogItems);
+                        FillMethodsComboBoxFilter(LogItems);
+                    }
+                    else
+                    {
+                        MessageBox.Show("No Logs Found!");
+                    }
+                }
+            }
+
+
+        }
         private void FilterGrid(bool clear = false)
         {
             // cehck columns to filter 
@@ -151,7 +168,7 @@ namespace LinkDevelopment.LogViewer
                 if (clear)
                 {
                     filter = string.Empty;
-                    textBox1.Text = string.Empty; 
+                    textBox1.Text = string.Empty;
                     ck_applyDateFilter.Checked = false;
                     com_filterMethods.SelectedIndex = -1;
                     txt_headerFilter.Text = string.Empty;
@@ -223,7 +240,7 @@ namespace LinkDevelopment.LogViewer
             }
             // response  Body 
             if (!string.IsNullOrEmpty(txt_responseBodyFilter.Text))
-            {             
+            {
                 if (!string.IsNullOrEmpty(filter))
                     filter += "AND ";
                 filter += $"ResponseBody LIKE '*{Utils.EscapeLikeValue(txt_responseBodyFilter.Text)}*'";
@@ -263,6 +280,7 @@ namespace LinkDevelopment.LogViewer
         }
         #endregion
 
+        #region Events 
         private void com_filterMethods_SelectedIndexChanged(object sender, EventArgs e)
         {
             FilterGrid();
@@ -302,6 +320,73 @@ namespace LinkDevelopment.LogViewer
         private void txt_requestBodyFilter_TextChanged(object sender, EventArgs e)
         {
             FilterGrid();
+        }
+
+        private void btn_addStatus_Click(object sender, EventArgs e)
+        {
+            StatusPattern newForm = new LinkDevelopment.LogViewer.StatusPattern();
+            newForm.MainForm = this;
+            newForm.Show();
+        }
+        private void btn_removeStatus_Click(object sender, EventArgs e)
+        {
+            var statusPatternToRemove = lst_statusPatterns.SelectedItem;
+            if (statusPatternToRemove != null)
+            {
+                lst_statusPatterns.Items.Remove(statusPatternToRemove);
+                StatusPatterns.Remove(StatusPatterns.Where(p => p.PatternString == (String)statusPatternToRemove).First());
+            }
+        }
+
+        private void applyStatusFilterOnGrid(List<StatusPatternModel> _statuses)
+        {
+            if (_statuses.Any())
+            {
+                foreach (StatusPatternModel status in _statuses)
+                {
+                    // apply Filter 
+                    filteredData = LogsDT.AsDataView();
+                    LogsDT.Rows.Cast<DataRow>().Where(dr => dr.Field<string>("ResponseBody").Contains(status.PatternString)).ToList()
+                        .ForEach(r =>
+                                    {
+                                        r.Field<LogItem>("Item").Status = status.Status;
+                                        r["Status"] = (status.Status == StatusEnum.Fail)?"Fail":"Success";
+                                    });
+                    foreach (DataGridViewRow row in dataGridView1.Rows)
+                    {
+                        if (row.Cells.Count>0)
+                        {
+                            if (row.Cells["Status"].Value == "Fail")
+                            {
+                                row.DefaultCellStyle.BackColor = Color.Red;
+                            }
+                            else if (row.Cells["Status"].Value == "Success")
+                            {
+                                row.DefaultCellStyle.BackColor = Color.Green;
+                            } 
+                        }
+                    }
+                    //filteredData.RowFilter = $"ResponseBody LIKE '*{Utils.EscapeLikeValue(status.PatternString)}*'";
+                    //   filteredData.
+                  
+
+                    //DataRowView[] foundRows = dd.FindRows()
+                    //var result1 = filteredData.Cast<DataRowView>().Where(rv => rv.Row.Field<string>("ResponseBody").Contains(StatusPatterns[0].PatternString) ).ToList().ForEach();
+
+
+                }
+            }
+
+        }
+
+
+
+
+        #endregion
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            applyStatusFilterOnGrid(StatusPatterns);
         }
     }
 }

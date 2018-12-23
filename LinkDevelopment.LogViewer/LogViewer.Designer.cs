@@ -1,6 +1,6 @@
 ﻿namespace LinkDevelopment.LogViewer
 {
-    partial class Form1
+    partial class LogViewer
     {
         /// <summary>
         /// Required designer variable.
@@ -40,9 +40,12 @@
             this.ck_applyDateFilter = new System.Windows.Forms.CheckBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.txt_filter = new System.Windows.Forms.TextBox();
             this.lst_controllers = new System.Windows.Forms.ListBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btn_removeStatus = new System.Windows.Forms.Button();
+            this.lst_statusPatterns = new System.Windows.Forms.ListBox();
+            this.btn_addStatus = new System.Windows.Forms.Button();
+            this.txt_filter = new System.Windows.Forms.TextBox();
             this.txt_responseBodyFilter = new System.Windows.Forms.TextBox();
             this.txt_headerFilter = new System.Windows.Forms.TextBox();
             this.txt_requestBodyFilter = new System.Windows.Forms.TextBox();
@@ -50,10 +53,12 @@
             this.ck_applyHeadersFilter = new System.Windows.Forms.CheckBox();
             this.ck_applyRequestBodyFilter = new System.Windows.Forms.CheckBox();
             this.ck_applyResponseBodyFilter = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -169,23 +174,6 @@
             this.tabPage1.Text = "Controllers/Svc";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(343, 172);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Status Patterns";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // txt_filter
-            // 
-            this.txt_filter.Location = new System.Drawing.Point(13, 28);
-            this.txt_filter.Name = "txt_filter";
-            this.txt_filter.Size = new System.Drawing.Size(773, 20);
-            this.txt_filter.TabIndex = 10;
-            // 
             // lst_controllers
             // 
             this.lst_controllers.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -195,6 +183,55 @@
             this.lst_controllers.Size = new System.Drawing.Size(337, 166);
             this.lst_controllers.TabIndex = 0;
             this.lst_controllers.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.btn_removeStatus);
+            this.tabPage2.Controls.Add(this.lst_statusPatterns);
+            this.tabPage2.Controls.Add(this.btn_addStatus);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(343, 172);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Status Patterns";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // btn_removeStatus
+            // 
+            this.btn_removeStatus.Location = new System.Drawing.Point(265, 35);
+            this.btn_removeStatus.Name = "btn_removeStatus";
+            this.btn_removeStatus.Size = new System.Drawing.Size(75, 23);
+            this.btn_removeStatus.TabIndex = 2;
+            this.btn_removeStatus.Text = "Remove";
+            this.btn_removeStatus.UseVisualStyleBackColor = true;
+            this.btn_removeStatus.Click += new System.EventHandler(this.btn_removeStatus_Click);
+            // 
+            // lst_statusPatterns
+            // 
+            this.lst_statusPatterns.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lst_statusPatterns.FormattingEnabled = true;
+            this.lst_statusPatterns.Location = new System.Drawing.Point(3, 3);
+            this.lst_statusPatterns.Name = "lst_statusPatterns";
+            this.lst_statusPatterns.Size = new System.Drawing.Size(256, 166);
+            this.lst_statusPatterns.TabIndex = 1;
+            // 
+            // btn_addStatus
+            // 
+            this.btn_addStatus.Location = new System.Drawing.Point(265, 6);
+            this.btn_addStatus.Name = "btn_addStatus";
+            this.btn_addStatus.Size = new System.Drawing.Size(75, 23);
+            this.btn_addStatus.TabIndex = 0;
+            this.btn_addStatus.Text = "Add";
+            this.btn_addStatus.UseVisualStyleBackColor = true;
+            this.btn_addStatus.Click += new System.EventHandler(this.btn_addStatus_Click);
+            // 
+            // txt_filter
+            // 
+            this.txt_filter.Location = new System.Drawing.Point(13, 28);
+            this.txt_filter.Name = "txt_filter";
+            this.txt_filter.Size = new System.Drawing.Size(773, 20);
+            this.txt_filter.TabIndex = 10;
             // 
             // txt_responseBodyFilter
             // 
@@ -258,11 +295,22 @@
             this.ck_applyResponseBodyFilter.TabIndex = 17;
             this.ck_applyResponseBodyFilter.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1050, 308);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // LogViewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1158, 536);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.ck_applyResponseBodyFilter);
             this.Controls.Add(this.ck_applyRequestBodyFilter);
             this.Controls.Add(this.ck_applyHeadersFilter);
@@ -282,13 +330,14 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "LogViewer";
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -318,6 +367,10 @@
         private System.Windows.Forms.CheckBox ck_applyHeadersFilter;
         private System.Windows.Forms.CheckBox ck_applyRequestBodyFilter;
         private System.Windows.Forms.CheckBox ck_applyResponseBodyFilter;
+        private System.Windows.Forms.Button btn_removeStatus;
+        private System.Windows.Forms.ListBox lst_statusPatterns;
+        private System.Windows.Forms.Button btn_addStatus;
+        private System.Windows.Forms.Button button1;
     }
 }
 

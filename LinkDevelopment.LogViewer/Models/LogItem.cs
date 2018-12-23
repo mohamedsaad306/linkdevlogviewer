@@ -21,7 +21,12 @@ namespace LinkDevelopment.LogViewer.Models
         public StatusEnum? Status { get; set; }
        
     }
+    public  class StatusPatternModel
+    {
+        public string PatternString { get; set; }
+        public StatusEnum Status { get; set; }
 
+    }
     public enum StatusEnum
     {
         Fail=0,
