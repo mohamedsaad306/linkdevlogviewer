@@ -18,14 +18,16 @@ namespace LinkDevelopment.LogViewer
         public DataTable LogsDT { get; set; }
         public List<LogItem> LogItems { get; set; }
         public DataView filteredData { get; set; }
+        public Utils Utils { get; set; }
 
         public List<StatusPatternModel> StatusPatterns { get; set; }
         public LogViewer()
         {
             InitializeComponent();
-            //
             LogItems = new List<LogItem>();
             StatusPatterns = new List<StatusPatternModel>();
+            Utils = new LinkDevelopment.LogViewer.Utils();
+
         }
 
 
@@ -70,18 +72,18 @@ namespace LinkDevelopment.LogViewer
                             ReadOnly = false,
                             ColumnMapping= MappingType.Hidden
                         },
-                        new DataColumn()
-                        {
-                            ColumnName = "RequestBody",
-                            ReadOnly = false,
-                            ColumnMapping= MappingType.Hidden
-                        },
-                        new DataColumn()
-                        {
-                            ColumnName = "ResponseBody",
-                            ReadOnly = false,
-                            ColumnMapping= MappingType.Hidden
-                        },
+                        //new DataColumn()
+                        //{
+                        //    ColumnName = "RequestBody",
+                        //    ReadOnly = false,
+                        //    ColumnMapping= MappingType.Hidden
+                        //},
+                        //new DataColumn()
+                        //{
+                        //    ColumnName = "ResponseBody",
+                        //    ReadOnly = false,
+                        //    ColumnMapping= MappingType.Hidden
+                        //},
                         new DataColumn ()
                         {
                             ColumnName = "Item",
@@ -91,6 +93,7 @@ namespace LinkDevelopment.LogViewer
                         }
                     });
 
+             
             foreach (var item in LogItems)
             {
 
@@ -101,15 +104,15 @@ namespace LinkDevelopment.LogViewer
                 r["Time"] = item.TakenTimeSeconds;
                 //hidden 
                 r["Headers"] = item.RequestHeaders;
-                r["RequestBody"] = item.RequestBody;
-                r["ResponseBody"] = item.ResponseBody;
+                //  r["RequestBody"] = item.RequestBody;
+                //  r["ResponseBody"] = item.ResponseBody;
 
                 r["Item"] = item;
                 LogsDT.Rows.Add(r);
             }
             // fill main grid
             dataGridView1.DataSource = LogsDT;
-            filteredData = LogsDT.AsDataView();
+            // filteredData = LogsDT.AsDataView();
             dataGridView1.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             lbl_logsCount.Text = dataGridView1.Rows.Count.ToString();
         }
@@ -142,11 +145,24 @@ namespace LinkDevelopment.LogViewer
                     {
                         var fileLines = File.ReadAllLines(currentFile);
                         LogItems.AddRange(Utils.ParseFile(currentFile));
+
+                        //using (StreamReader sr = File.OpenText(currentFile))
+                        //{
+                        //    string s = String.Empty;
+                        //    (s = sr.ReadToEnd()
+                        //}
+                        //LogItems.AddRange(Utils.ParseFile(currentFile));
+
+
                     }
                     if (LogItems.Any())
                     {
                         FillLogsGrid(LogItems);
                         FillMethodsComboBoxFilter(LogItems);
+                        LogItems.Clear();
+                        //GC.Collect();
+                        // Utils.Dispose();
+                        GC.SuppressFinalize(this);
                     }
                     else
                     {
@@ -192,12 +208,12 @@ namespace LinkDevelopment.LogViewer
                 }
                 catch (EvaluateException e)
                 {
-                    filter = Utils.EscapeLikeValue(filter);
-                    filteredData.RowFilter = filter;
-                    dataGridView1.DataSource = filteredData;
-                    dataGridView1.Refresh();
-                    txt_filter.Text = filter;
-                    lbl_logsCount.Text = dataGridView1.Rows.Count.ToString();
+                    //filter = Utils.EscapeLikeValue(filter);
+                    //filteredData.RowFilter = filter;
+                    //dataGridView1.DataSource = filteredData;
+                    //dataGridView1.Refresh();
+                    //txt_filter.Text = filter;
+                    //lbl_logsCount.Text = dataGridView1.Rows.Count.ToString();
                 }
             }
         }
@@ -345,16 +361,16 @@ namespace LinkDevelopment.LogViewer
                 foreach (StatusPatternModel status in _statuses)
                 {
                     // apply Filter 
-                    filteredData = LogsDT.AsDataView();
+
                     LogsDT.Rows.Cast<DataRow>().Where(dr => dr.Field<string>("ResponseBody").Contains(status.PatternString)).ToList()
                         .ForEach(r =>
                                     {
                                         r.Field<LogItem>("Item").Status = status.Status;
-                                        r["Status"] = (status.Status == StatusEnum.Fail)?"Fail":"Success";
+                                        r["Status"] = (status.Status == StatusEnum.Fail) ? "Fail" : "Success";
                                     });
                     foreach (DataGridViewRow row in dataGridView1.Rows)
                     {
-                        if (row.Cells.Count>0)
+                        if (row.Cells.Count > 0)
                         {
                             if (row.Cells["Status"].Value == "Fail")
                             {
@@ -363,12 +379,12 @@ namespace LinkDevelopment.LogViewer
                             else if (row.Cells["Status"].Value == "Success")
                             {
                                 row.DefaultCellStyle.BackColor = Color.Green;
-                            } 
+                            }
                         }
                     }
                     //filteredData.RowFilter = $"ResponseBody LIKE '*{Utils.EscapeLikeValue(status.PatternString)}*'";
                     //   filteredData.
-                  
+
 
                     //DataRowView[] foundRows = dd.FindRows()
                     //var result1 = filteredData.Cast<DataRowView>().Where(rv => rv.Row.Field<string>("ResponseBody").Contains(StatusPatterns[0].PatternString) ).ToList().ForEach();
@@ -378,9 +394,6 @@ namespace LinkDevelopment.LogViewer
             }
 
         }
-
-
-
 
         #endregion
 
