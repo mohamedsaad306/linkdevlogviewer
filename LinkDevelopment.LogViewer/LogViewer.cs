@@ -136,7 +136,7 @@ namespace LinkDevelopment.LogViewer
 
                 if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(folderBrowser.SelectedPath))
                 {
-                    var txtFiles = Directory.EnumerateFiles(folderBrowser.SelectedPath, "*.log.txt");
+                    var txtFiles = Directory.EnumerateFiles(folderBrowser.SelectedPath, "*.txt");
 
                     foreach (string currentFile in txtFiles)
                     {
