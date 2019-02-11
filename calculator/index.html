@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
+
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+
+
+</head>
+
+<body>
+    <div id="app">
+
+        <div class="container">
+            {{title}}
+
+            <div class="col-4">
+                <b-form-input v-model="amount" type="text" placeholder="Amount"></b-form-input>
+            </div>
+
+            <h3>{{amount}}</h3>
+            <div id="transactions">
+                <h3>{{fields[0]}}</h3>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="breeder">
+        <div class="container">
+            <div class="col-5">
+                <b-form-select v-model="mainSelectedGender" :options="genders"  @change= "onChangeBreederType" class="mb-3" >
+                        <template slot="first">
+                                <!-- this slot appears above the options from 'options' prop -->
+                                <option :value="null" disabled>-- Please select an option --</option>
+                              </template>
+                </b-form-select>  
+            </div>
+            <div class="row">
+                <div class="col-5">
+                        <label><strong>Genetic Crossing </strong></label>
+                    <template>
+                        <b-table  hover :items="mainSelectedBirds" :fields="mainFields" @row-clicked="mainSelectionRowClick"></b-table>
+                    </template>
+                </div>
+                <div class="col-2">
+
+                </div>
+                <div class="col-5">
+                        <label><strong>Selected Bird Ring:<span> {{selectedBirdRing}} <br> Cage: {{selectedBirdCage}} </strong></label>
+                    
+                            <template>
+                        <b-table  hover :items="relatedSelectedBirdsList" :fields="relatedFields" @row-clicked="relatedSelectionRowClick"></b-table>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
