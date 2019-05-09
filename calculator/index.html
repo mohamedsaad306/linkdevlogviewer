@@ -8,64 +8,317 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <style>
+        .modal-lg{
+            max-width: 1024px;
+        }
+        </style>
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
-
-
 </head>
 
 <body>
     <div id="app">
-
         <div class="container">
-            {{title}}
-
             <div class="col-4">
-                <b-form-input v-model="amount" type="text" placeholder="Amount"></b-form-input>
+                <!-- <b-form-input v-model="amount" type="text" placeholder="Amount"></b-form-input> -->
             </div>
-
-            <h3>{{amount}}</h3>
             <div id="transactions">
-                <h3>{{fields[0]}}</h3>
+                <!-- <h3>{{fields[0]}}</h3> -->
             </div>
         </div>
     </div>
-
+    <!--    Components  -->
     <hr>
-
-    <div id="breeder">
+    <!-- relatednss Status  -->
+    <div id="relatedness">
         <div class="container">
+            <h3>Relatedness Status </h3>
             <div class="col-5">
-                <b-form-select v-model="mainSelectedGender" :options="genders"  @change= "onChangeBreederType" class="mb-3" >
-                        <template slot="first">
-                                <!-- this slot appears above the options from 'options' prop -->
-                                <option :value="null" disabled>-- Please select an option --</option>
-                              </template>
-                </b-form-select>  
+                <b-form-select v-model="mainSelectedGender" :options="genders" @change="onChangeBreederType" class="mb-3">
+                    <template slot="first">
+                        <!-- this slot appears above the options from 'options' prop -->
+                        <option :value="null" disabled>-- Please select an option --</option>
+                    </template>
+                </b-form-select>
             </div>
             <div class="row">
                 <div class="col-5">
-                        <label><strong>Genetic Crossing </strong></label>
+                    <label><strong>Genetic Crossing </strong></label>
                     <template>
-                        <b-table  hover :items="mainSelectedBirds" :fields="mainFields" @row-clicked="mainSelectionRowClick"></b-table>
+                        <b-table hover :items="mainSelectedBirds" :fields="mainFields" @row-clicked="mainSelectionRowClick"></b-table>
                     </template>
                 </div>
                 <div class="col-2">
 
                 </div>
                 <div class="col-5">
-                        <label><strong>Selected Bird Ring:<span> {{selectedBirdRing}} <br> Cage: {{selectedBirdCage}} </strong></label>
-                    
-                            <template>
-                        <b-table  hover :items="relatedSelectedBirdsList" :fields="relatedFields" @row-clicked="relatedSelectionRowClick"></b-table>
+                    <label><strong>Selected Bird Ring:<span> {{selectedBirdRing}} <br> Cage: {{selectedBirdCage}}
+                        </strong></label>
+                    <br>
+                    <strong> Availability: {{availability}}</strong>
+                    <template>
+                        <b-table hover :items="relatedSelectedBirdsList" :fields="relatedFields" @row-clicked="relatedSelectionRowClick"></b-table>
                     </template>
                 </div>
             </div>
         </div>
     </div>
+    <hr>
 
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="https://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+    <!-- Breeders List   -->
+    <div id="breederList">
+        <div class="container">
+            <h3>Breeder List </h3>
+            <!-- User Interface controls -->
+            <b-row>
+                <b-col md="6" class="my-1">
+                    <b-form-group horizontal label="Search" class="mb-0">
+                        <b-input-group>
+                            <b-form-input v-model="filter" placeholder="Type to Search" />
+                            <b-input-group-append>
+                                <b-btn :disabled="!filter" @click="filter = ''">Clear</b-btn>
+                            </b-input-group-append>
+                        </b-input-group>
+                    </b-form-group>
+                </b-col>
+                <b-col md="6" class="my-1">
+                    <!-- sort -->
+
+                    <b-form-group horizontal label="Per page" class="mb-0">
+                        <b-form-select :options="pageOptions" v-model="perPage" />
+                    </b-form-group>
+
+                </b-col>
+                <b-col md="6" class="my-1">
+
+                    <b-form-group horizontal label="By Sex" class="mb-0">
+                        <b-form-select :options="sexOptions" v-model="perSex">
+
+                            <option slot="first" :value="null">-- none --</option>
+
+                        </b-form-select>
+                    </b-form-group>
+                </b-col>
+                <!-- perpage lower right  -->
+                <b-col md="6" class="my-1">
+                    <b-form-group horizontal label="Flock Of" class="mb-0">
+                        <b-input-group>
+
+                            <b-form-select v-model="perFlock" :options="flocksOptions">
+                                <option slot="first" :value="null">-- none --</option>
+                        </b-input-group>
+                    </b-form-group>
+                    </b-form-select>
+                </b-col>
+            </b-row>
+
+            <!-- table start here  -->
+            <b-table show-empty stacked="md" :items="mainBreederList" :fields="fields" :current-page="currentPage"
+                :per-page="perPage" :filter="filter" :sort-by.sync="sortBy" :sort-desc.sync="sortDesc" :sort-direction="sortDirection"
+                @filtered="onFiltered">
+
+                <template slot="isLayer" slot-scope="row">
+                    <b-form-checkbox disabled :checked="row.value">
+                    </b-form-checkbox>
+                </template>
+                <template slot="age" slot-scope="row">{{row.value.days}}d {{row.value.monthes}} m {{row.value.years}}</template>
+
+            </b-table>
+            <!-- pagination  -->
+            <b-row>
+                <b-col md="6" class="my-1">
+                    <b-pagination :total-rows="totalRows" :per-page="perPage" v-model="currentPage" class="my-0" />
+                </b-col>
+            </b-row>
+        </div>
+    </div>
+
+    <!-- Breeder list stats  -->
+    <div id="breederByFlocksAndSex">
+        <div class="container">
+            <h3>Statisc Statistics by Flock and Age </h3>
+            <template>
+                <div class="col-4">
+                    <b-table :items="items" hover>
+                    </b-table>
+                </div>
+            </template>
+        </div>
+    </div>
+
+    <!-- Birds Movement -->
+    <div id="birdsMovement">
+        <div class="container">
+            <h3>Movement </h3>
+            <div class="row">
+                <b-col md="6" class="my-1">
+                    <strong>Source </strong><br>
+                    <b-form-group horizontal label="By Sex" class="mb-0">
+                        <b-form-select :options="sexOptions" v-model="filterBySex">
+                            <option slot="first" :value="null">-- All --</option>
+                        </b-form-select>
+                    </b-form-group><br>
+                    <b-form-group horizontal label="By Type" class="mb-0">
+                        <b-form-select :options="birdsTypesOptions" v-model="filterByType">
+                            <option slot="first" :value="null">-- All --</option>
+                        </b-form-select>
+                    </b-form-group><br>
+                    <b-form-group horizontal label="By Cage" class="mb-0">
+                        <b-form-select :options="cagesListOptions" v-model="filterByCage">
+                            <option slot="first" :value="null">-- All --</option>
+                        </b-form-select>
+                    </b-form-group><br>
+                    <strong>Display available counts her (enh )</strong>
+                </b-col>
+                <b-col md="5" class="my-1">
+                    <strong>Distnation </strong>
+
+                    <b-form-group horizontal label="Distnation Cage " class="mb-0">
+                        <b-form-select :options="cagesListOptions" v-model="distnationCage">
+                            <option slot="first" disabled :value="null">-- Select Distnation --</option>
+                        </b-form-select>
+                    </b-form-group><br>
+                    <!-- <b-button :size="lg" :variant="success">
+                        Confirm
+                    </b-button> -->
+                    <div>
+                        <b-form-group horizontal label="Movement Date" class="mb-0">
+
+                            <!-- <label :for="movementDate">Movement Date </label> -->
+                            <b-form-input id="movementDate" :value="movementDate" type="date"></b-form-input>
+                        </b-form-group>
+
+                        <b-form-group horizontal label="Movement Reason" class="mb-0">
+
+
+                            <b-form-textarea id="textarea1" v-model="movementReason" placeholder=" " :rows="3"
+                                :max-rows="6">
+                            </b-form-textarea>
+                        </b-form-group>
+                        <b-btn v-b-modal="'confirmMovement'" size="lg" variant="success" :disabled="enableConfirm">Confirm
+                        </b-btn>
+                        <!-- Movement Confirmation Modal  -->
+                        <b-modal id="confirmMovement" title="Confirm Movement" @ok="confirmMovemnt">
+                            <p class="my-4"> You are about to move <strong>{{selectedBirdsForMovement.length}}</strong>
+                                birds to cage:
+                                <strong> {{distnationCage}}</strong>, this operation can be reverted from movement
+                                history.
+                            </p>
+                            <p>to procced click ok , or cancel to go back to selection screen.</p>
+                        </b-modal>
+                </b-col>
+            </div>
+        </div>
+        <div class="row">
+            <b-col md="6" class="my-1">
+                <b-table :items="birdsAvailableTomove" :fields="availableTableFields">
+                    <template slot="_isSelected" slot-scope="row">
+                        <b-form-checkbox :checked="row.value" @change="selectItemChanged(row)">
+                        </b-form-checkbox>
+                    </template>
+                </b-table>
+            </b-col>
+            <b-col md="6" class="my-1">
+                <b-table id="tobemoved-table" :items="selectedBirdsForMovement" :fields="availableTableFields">
+                    <template slot="_isSelected" slot-scope="row">
+                        <!--  <b-form-checkbox :checked="row.value._isSelected" @change="selectItemChanged(row)">
+                            </b-form-checkbox>-->
+                        <span style=" color: Tomato;">
+                            <i @click="selectItemChanged(row)" class="fas fa-minus-circle"></i>
+                        </span>
+                    </template>
+                </b-table>
+            </b-col>
+        </div>
+    </div>
+    </div>
+    <!-- Semen Collection  -->
+    <div id="semenCollection">
+        <div class="container col-10">
+            <h3>Collection history</h3>
+            <!-- new semen Collection  -->
+            <b-form-group>
+
+                <b-btn v-b-modal="'newSemenCollection'" size="lg" variant="primary">New Collection
+                </b-btn>
+                <!-- Movement Confirmation Modal  -->
+                <b-modal class="col-9" id="newSemenCollection" title="New Semen Collection" centered size="lg" @ok="createNewColelction">
+                    <!-- new collection form  -->
+                    <div class="row">
+                        <div class="col-5">
+                            <b-form-group horizontal label="Collection Date" class="mb-1">
+                                <b-form-input id="collectionDate" :value="newCollection.Date" type="date"></b-form-input>
+                            </b-form-group>
+                            <b-form-group horizontal label="Cage" class="mb-1">
+                                <b-form-select id="collectionCage" :value="newCollection.Cage" type="date" :options="cagesOptions"></b-form-select>
+                            </b-form-group>
+
+                            <b-form-group horizontal label="Male" class="mb-1">
+                                <b-form-select id="collectionMale" :value="newCollection.Male" type="date" :options="malesOptions">
+
+                                </b-form-select>
+                            </b-form-group>
+                            <b-form-group label="">
+
+                                <b-form-checkbox v-model="newCollection.isMissed">Is Missed</b-form-checkbox>
+                                <b-form-checkbox v-model="newCollection.isContaminated">Is
+                                    Contaminated</b-form-checkbox>
+                                <b-form-checkbox v-model="newCollection.isLowDose">Is Low Dose
+                                </b-form-checkbox>
+
+                        </div> <!--  coll end  -->
+                    </div>
+
+                </b-modal>
+            </b-form-group>
+
+            <!-- table filter  -->
+            <b-row>
+                <b-col md="3" class="my-1">
+                    <b-form-group horizontal label="Search " class="mb-0">
+                        <b-input-group>
+                            <b-form-input v-model="filter" placeholder="Type to Search" />
+                            <b-input-group-append>
+                                <b-btn :disabled="!filter" @click="filter = ''">Clear</b-btn>
+                            </b-input-group-append>
+                        </b-input-group>
+                    </b-form-group>
+                </b-col>
+            </b-row>
+
+            <b-table :fields="collectionFields" :items="collectionHistoryItems" :filter="filter" @filtered="onFiltered">
+                <template slot="isMixed" slot-scope="row">
+                    <b-form-checkbox disabled :checked="row.value">
+                    </b-form-checkbox>
+                </template>
+                <template slot="isMissed" slot-scope="row">
+                    <b-form-checkbox disabled :checked="row.value">
+                    </b-form-checkbox>
+                </template>
+                <template slot="isContaminated" slot-scope="row">
+                    <b-form-checkbox disabled :checked="row.value">
+                    </b-form-checkbox>
+                </template>
+                <template slot="isLowDose" slot-scope="row">
+                    <b-form-checkbox disabled :checked="row.value">
+                    </b-form-checkbox>
+                </template>
+
+                <template slot="isUsed" slot-scope="row">
+                    <span v-if="row.value" style="color:forestgreen"><i class="fas fa-check-circle"></i></span>
+
+                </template>
+
+
+            </b-table>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"> </script>
+    <script src="https://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js">
+    </script>
     <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
     <script src="main.js"></script>
 </body>
